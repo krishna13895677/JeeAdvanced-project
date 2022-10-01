@@ -26,7 +26,7 @@ public class OrderServicesApplication {
 			
 			@Override
 			public void run(String... args) throws Exception {
-				repo.save(new Order(1, "Mohan", LocalDate.of(2022, 9, 23),new Product(101)));
+				repo.save(new Order(1, "Mohan", LocalDate.of(2022, 9, 23),new Product(120)));
 				
 			}
 		};
